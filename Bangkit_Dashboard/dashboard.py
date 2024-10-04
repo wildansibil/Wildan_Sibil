@@ -126,7 +126,7 @@ min_date = pd.to_datetime(day_df['dateday']).dt.date.min()
 max_date = pd.to_datetime(day_df['dateday']).dt.date.max()
 
 with st.sidebar:
-    st.image('https://www.google.com/url?sa=i&url=https%3A%2F%2Fid.pngtree.com%2Ffreebackground%2Fbike-sharing-family-party_1708638.html&psig=AOvVaw0jh0V_FBRkY8TPR1-ofjO7&ust=1728123248888000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNixrfS-9IgDFQAAAAAdAAAAABAZ)
+    st.image('C:\Users\wilda\Downloads\pngtree-bike-sharing-family-party-picture-image_1708638.jpg')
     # Mengambil start_date & end_date dari date_input
     start_date, end_date = st.date_input(
         label='Time Span',
