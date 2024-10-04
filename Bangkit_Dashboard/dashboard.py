@@ -7,6 +7,8 @@ Original file is located at
     https://colab.research.google.com/drive/1UjkPcKKSukvTXen7J8h-VK_cQBLOyMyE
 """
 
+pip install matplotlib
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
