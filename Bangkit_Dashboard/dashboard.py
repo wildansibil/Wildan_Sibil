@@ -154,7 +154,7 @@ weather_rent_df = create_weather_rent_df(main_df)
 # Membuat Dashboard secara lengkap
 
 # Membuat judul
-st.header('E-Bike Rental Dashboard 🚲' :sparkle: )
+st.header('E-Bike Rental Dashboard :sparkle:🚲'  )
 
 # Membuat jumlah penyewaan harian
 st.subheader('Daily Rentals')
