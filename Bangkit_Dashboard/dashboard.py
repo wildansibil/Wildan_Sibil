@@ -126,7 +126,7 @@ min_date = pd.to_datetime(day_df['dateday']).dt.date.min()
 max_date = pd.to_datetime(day_df['dateday']).dt.date.max()
 
 with st.sidebar:
-    st.image(r"C:\Users\wilda\Downloads\pngtree-bike-sharing-family-party-picture-image_1708638.jpg")
+    st.image("C:\Users\wilda\Downloads\pngtree-bike-sharing-family-party-picture-image_1708638.jpg")
     # Mengambil start_date & end_date dari date_input
     start_date, end_date = st.date_input(
         label='Time Span',
