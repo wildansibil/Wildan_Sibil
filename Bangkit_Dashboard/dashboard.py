@@ -307,4 +307,4 @@ axes[2].tick_params(axis='y', labelsize=10)
 plt.tight_layout()
 st.pyplot(fig)
 
-st.caption('Copyright (c) Afif Ramadhan 2023')
+st.caption('Copyright (c) Wildan Sibil Danillah Safri 2024')
