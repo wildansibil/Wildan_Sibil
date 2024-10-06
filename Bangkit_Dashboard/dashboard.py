@@ -12,6 +12,12 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
 
+print(pd.__version__)
+print(matplotlib.__version__)
+print(sns.__version__)
+print(st.__version__)
+
+
 # Set style seaborn
 sns.set(style='dark')
 
