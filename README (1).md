@@ -42,7 +42,8 @@ Note: Numbers 1 to 3 are in the dicoding-collection-exercise and number 4 is in 
 8. Connect to hosted runtime.
 9. Lastly, run the code cells.
 
-Streamlir run
+Streamlit run
+
 Bangkit_Dashboard/dashboard.py
 
 1. Download this project.
