@@ -233,3 +233,7 @@ st.pyplot(fig)
 
 streamlit run Bangkit_Dashboard/dashboard.py
 st.caption('Copyright (c) Wildan Sibil Danillah Safri 2024')
+
+# Petunjuk untuk menjalankan dashboard
+# Untuk menjalankan dashboard ini, gunakan perintah berikut di terminal:
+# streamlit run Bangkit_Dashboard/dashboard.py
