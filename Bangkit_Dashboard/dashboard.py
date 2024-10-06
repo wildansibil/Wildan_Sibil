@@ -230,9 +230,4 @@ ax.set_ylabel('Jumlah Pengguna Sepeda', fontsize=14)
 
 # Menampilkan plot di Streamlit
 st.pyplot(fig)
-
 st.caption('Copyright (c) Wildan Sibil Danillah Safri 2024')
-
-# Petunjuk untuk menjalankan dashboard
-# Untuk menjalankan dashboard ini, gunakan perintah berikut di terminal:
-# streamlit run Bangkit_Dashboard/dashboard.py
