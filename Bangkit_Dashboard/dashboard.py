@@ -224,27 +224,28 @@ ax.legend()
 st.pyplot(fig)
 
 # Membuah jumlah penyewaan berdasarkan kondisi cuaca
-st.subheader('Weatherly Rentals')
 
-fig, ax = plt.subplots(figsize=(16, 8))
+# Judul subheader
+st.subheader('Jumlah Pengguna Sepeda berdasarkan Kondisi Cuaca')
 
-colors=["tab:blue", "tab:orange", "tab:green"]
+# Membuat plot
+fig, ax = plt.subplots(figsize=(10, 6))
 
 sns.barplot(
-    x=weather_rent_df.index,
-    y=weather_rent_df['count'],
-    palette=colors,
+    x='weather_cond',
+    y='count',
+    data=day_df,
     ax=ax
 )
 
-for index, row in enumerate(weather_rent_df['count']):
-    ax.text(index, row + 1, str(row), ha='center', va='bottom', fontsize=12)
+# Menambahkan judul dan label sumbu
+ax.set_title('Jumlah Pengguna Sepeda berdasarkan Kondisi Cuaca', fontsize=16)
+ax.set_xlabel('Kondisi Cuaca', fontsize=14)
+ax.set_ylabel('Jumlah Pengguna Sepeda', fontsize=14)
 
-ax.set_xlabel(None)
-ax.set_ylabel(None)
-ax.tick_params(axis='x', labelsize=20)
-ax.tick_params(axis='y', labelsize=15)
+# Menampilkan plot di Streamlit
 st.pyplot(fig)
+
 
 # Membuat jumlah penyewaan berdasarkan weekday, working dan holiday
 st.subheader('Weekday, Workingday, and Holiday Rentals')
